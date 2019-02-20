@@ -42,11 +42,12 @@
 
        if (userGuess === computerGuess) {
         wins++;
-        guessesLeft = 10
+        guessesLeft = 10;
         }
         else {
-        guessesLeft--
+        guessesLeft--;
         usedLetter = [];
+        usedLetter.push(userGuess);
         }
         if(guessesLeft === 0){
         losses++;
@@ -54,7 +55,7 @@
         }
 
 
-        usedLetter.push(userGuess); 
+         
 
         
       // if {
