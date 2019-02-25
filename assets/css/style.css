@@ -1,0 +1,18 @@
+body{
+    background-color: teal;
+}
+
+#directions-text{
+    text-align: center;
+    color: teal;
+    font-size: 60px;
+    text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow;
+}
+
+/* tried going for a Neon sign look, to replicate the neon signs used by psychic, did not turn out looking as good as i would like */
+.psychic{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow;
+}
